@@ -1,0 +1,4 @@
+to remove localy    >>>>   git branch -d dev   or git branch -D dev
+
+
+to remove remotly .....> git branch :dev
