@@ -1,4 +1,23 @@
-to remove localy    >>>>   git branch -d dev   or git branch -D dev
+1- Create a new project <project-Day2> then push it to my remote repo. 
+2- create two branches (dev include <two file> and test include <one file>) then  push this changes to my remote repo. 
+3- then merge this changes on main branch and then push it to my remote main branch
+
+4-*to remove localy    >>>>   git branch -d dev   or git branch -D dev
+  *to remove remotly .....> git branch :dev
+
+5-Send  invitation on your mail.
 
 
-to remove remotly .....> git branch :dev
+6- create an annoted tag with tagname v1.4. 
+    git tag -a v1.4 -m "version 1.4" 
+    git show 1.4 
+
+7-  To push tags 
+       git push origin v1.4 
+
+8- *To delete a remote tag 
+      git  push origin  --delete v1.4 
+      git  push origin :refs/tags/v1.4
+   *To delete a local tag git tag -d v1.4 
+
+8-create readme
